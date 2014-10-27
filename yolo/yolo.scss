@@ -1,0 +1,8 @@
+@mixin yolo() {
+  @at-root {
+    :root:root:root:root:root:root:root:root:root:root:root:root:root:root:root,
+    :root:root:root:root:root:root:root:root:root:root:root:root:root:root:root * {
+      @content;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+@mixin polite($ask:null) {
+  @if $ask == please {
+      @content;
+  } @else {
+    @debug 'Ask nicely.';
+  }
+}
